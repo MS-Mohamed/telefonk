@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lalezar&family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lalezar&family=Lateef:wght@200;300;400;500;600;700;800&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    margin-top: 0px;
+    border-radius: 2em;
+}
+
+.logo-box{
+    display: flex;;
+}
+
+i{
+    color: #6e0aef;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 25px;
+    color: #4e547e;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: #6e0aef;
+}
+
+.Startup{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+.texter{
+    width: 750px;
+    direction: rtl;
+}
+
+.texter h4{
+    color: #6e0aef;
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.texter h1{
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.texter p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.texter span{
+    color: #6e0aef;
+}
+
+button{
+    background-color: #6e0aef;
+    padding: 0px 45px;
+    border-radius: 0.9em;
+    border: none;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+    font-size: 35px;
+}
+
+button:hover{
+    transition: 0.7s;
+    transform: scale(1.2);
+    background-color: blue;
+}
+
+.main-title{
+    direction: rtl;
+    margin: 50px 100px 100px;
+    color: #6e0aef;
+    font-size: 30px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.main-title:hover{
+    color: red;
+}
+
+.conter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    border-radius: 1.5em;
+    margin-bottom: 75px;
+    box-shadow: 1px 1px 50px 5px black;
+}
+
+.card:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+    border: #4e547e solid 4px;
+    box-shadow: 1px 1px 50px 5px blue inset;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.desc{
+    font-size: 25px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+}
+
+.final-div{
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+.phones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.phones h3{
+    font-size: 25px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+    font-family: 'Readex Pro', sans-serif;
+    margin-bottom: 75px;
+}
+
+.phone:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 100px;
+}
+
+.footer-section{
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 2px;
+}
+
+.footer-section p{
+    direction: rtl;
+    font-size: 25px;
+    font-family: 'Amiri', serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lateef', serif;
+}
+
+.socials a{
+    text-decoration: none;
+}
+
+.socials i{
+    color: black;
+    margin-top: 0px;
+}
+
+.socials i:hover{
+    color: #6e0aef;
+}
+
+
+.elevator{
+    font-size: 13px;
+    font-family: roboto,arial;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 36px;
+    border-radius: 2px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAABACAYAAAAAqrdiAAAAAXNSR0IArs4c6QAAAO1JREFUWAntVtsNgzAMhH4zUgfoCF2iu3SbDtCROkB6TonkoOLYIgg+zpKVh+07cyGIYaBRAa1ASukKf8Envd9lPoN/MIq94f1IACadF3BMs/UhAZQGF9AbvJBtI/kDnmVZ2w+dRQukFTfJvMXevIosWhTKDyWrtlx1riQFupya9WZwiWSsV3EQkOsvtu29Bjkw9L25536wOcGfMhoNukMzycNdwEQqQAWoABWgAlSAClCBWgH8UGWrd+3VxQ5vj5KgqSElOl6isbQgN6jMe4wjTHB2P+RQs78PRexJd38CEjTPkBIdL1Gzg9MnfAFufpMFRDjzHgAAAABJRU5ErkJggg==) 8px 6px no-repeat;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgba(0,0,0,.5);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    display: block;
+}
